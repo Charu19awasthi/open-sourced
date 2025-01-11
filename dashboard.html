@@ -23,5 +23,10 @@
             {% endfor %}
         </ul>
     </div>
+    <!-- Button to toggle themes -->
+<button onclick="toggleTheme()">Toggle Theme</button>
+
+<script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </body>
 </html>
